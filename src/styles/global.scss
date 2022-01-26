@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,10 @@
 
 :root {
     --white: #FFFFFF;
-
-    --gray-100: #e1e1e6; 
-    --gray-300: #a8a8b3; 
-    --gray-900: #121214; 
-
+    --gray-100: #e1e1e6;
+    --gray-300: #a8a8b3;
+    --gray-800: #29292e;
+    --gray-900: #121214;
     --cyan-500: #61dafb;
     --yellow-500: #eba417;
 }
@@ -32,7 +31,11 @@ body {
     }
 }
 
-body, input, textarea, select, button {
+body,
+input,
+textarea,
+select,
+button {
     font: 400 1rem "Roboto", sans-serif;
 }
 
