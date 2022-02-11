@@ -34,4 +34,4 @@ yarn-error.log*
 .vercel
 
 #stripe
-stripe.js
+stripe.exe
