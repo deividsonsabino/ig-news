@@ -1,6 +1,8 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-export default class MyDocument extends Document {
+const CustomDocument = Document as any
+
+export default class MyDocument extends CustomDocument {
     render() {
         return (
             <Html lang="en">
